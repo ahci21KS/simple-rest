@@ -19,4 +19,9 @@ public class HelloWorldController {
     public String hello3() {
         return "Hi-3-Updated";
     }
+
+    @GetMapping("/h4")
+    public String hello4() {
+        return "Hi-4";
+    }
 }
