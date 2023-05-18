@@ -17,6 +17,6 @@ public class HelloWorldController {
     }
     @GetMapping("/h3")
     public String hello3() {
-        return "Hi-3";
+        return "Hi-3-Updated";
     }
 }
