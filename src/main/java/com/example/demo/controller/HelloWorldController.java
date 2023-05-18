@@ -9,14 +9,14 @@ public class HelloWorldController {
 
     @GetMapping("/h")
     public String hello() {
-        return "Hi-";
+        return "Hi-Dev";
     }
     @GetMapping("/h2")
     public String hello2() {
-        return "Hi-2";
+        return "Hi-Dev-2";
     }
     @GetMapping("/h3")
     public String hello3() {
-        return "Hi-3";
+        return "Hi-Dev-3";
     }
 }
