@@ -15,8 +15,5 @@ public class HelloWorldController {
     public String hello2() {
         return "Hi-Dev-2";
     }
-    @GetMapping("/h3")
-    public String hello3() {
-        return "Hi-Dev-3";
     }
 }
